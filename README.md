@@ -10,8 +10,8 @@ Follow this guide, and Homebrew will be installed on your machine without requir
 
 
 # installed packaged directory
-```echo "export HOMEBREW_PREFIX=~/usr/local" >> ~/.zshrc```
-```echo "export PATH=$PATH:~/homebrew/bin:HOMEBREW_PREFIX/bin" >> ~/.zshrc```
+```sh echo "export HOMEBREW_PREFIX=~/usr/local" >> ~/.zshrc```
+```sh echo "export PATH=$PATH:~/homebrew/bin:HOMEBREW_PREFIX/bin" >> ~/.zshrc```
 # update brew
 $ brew update
 # if error
