@@ -25,6 +25,11 @@ echo "export HOMEBREW_PREFIX=~/usr/local" >> ~/.zshrc
 ```sh
 echo "export PATH=$PATH:~/homebrew/bin:HOMEBREW_PREFIX/bin" >> ~/.zshrc
 ```
+
+```sh
+echo "source ~/.zshrc"
+```
+
 # update brew
 ```sh
 $ brew update
